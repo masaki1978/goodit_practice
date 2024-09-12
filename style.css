@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+html {
+    height: 100%;
+    /* html全体の高さを設定 */
+}
+
+form {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.chat-message {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+select:disabled,
+button:disabled {
+    background-color: #e0e0e0;
+    color: #a0a0a0;
+    cursor: not-allowed;
+}
